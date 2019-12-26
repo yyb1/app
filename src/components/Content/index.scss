@@ -1,0 +1,111 @@
+.content{
+    margin-top: -2px;
+    position:relative;
+    height:478px;
+    width: 100%;
+    overflow: hidden;
+    font-family: PingFangSC-Regular;
+    .index-img{
+        vertical-align: middle;
+        width:100%;
+    }
+    .mengban{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 478px;
+        background: rgba(31,56,88,0.40);
+     
+    }
+    .index-mid-box{
+        width: 1000px;
+        height: 100%;
+        position: absolute;
+        margin-left: -500px;
+        top: 0;
+        left: 50%;
+        .float-mid{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -245px;
+            margin-top: -145px;
+            .search-box{
+                width:490px;
+                height:60px;
+                position: relative;
+                border:0px;
+                background:none;
+                margin:0 auto;
+                .search-topic{
+                    left: 15px; 
+                    display: block;
+                    color: rgba(31,56,88,0.30);
+                    line-height: 20px;
+                    margin-left: 8px;
+                    position: absolute;
+                    z-index: 90;
+                    font-size: 14px;
+                    top: 50%;
+                    margin-top: -10px;
+                    width: 300px
+                }
+                .search-m{
+                    width:100%;
+                    height:100%;
+                    background:#fff;
+                    position:absolute;
+                    opacity: 0.1; 
+                    filter:alpha(opacity=10);
+                }
+                .search-text{
+                    width:368px;
+                    height:40px;
+                    padding-top: 6px;
+                    margin-top:6px;
+                    margin-left:10px;
+                    box-sizing: border-box;
+                    border-radius:3px;
+                    padding: 10px 0 6px;
+                    text-indent: 10px;
+                    float: left;
+                    border: 0;
+                    font-size: 14px;
+                    position: relative;
+                    top: 4px;
+                    outline: none;
+                }
+                .search-btn{
+                    color:#fff;
+                    background:#F37327;
+                    font-size:14px;
+                    font-family:PingFangSC-Regular;
+                    width: 92px;
+                    height: 40px;
+                    border-radius:3px;
+                    margin-top:10px;
+                    margin-left:10px;
+                    position: relative;
+                    z-index:2;
+                    border:0
+                }
+               
+            }
+        }
+        .hot-text{
+            text-align:center;
+            color: rgba(255,255,255,0.80);
+            padding: 10px 0;
+            .search-key{
+                padding: 0 15px 0 0;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .search-key:hover{
+                color:#F37327;
+            }
+        }
+    }
+    
+}
