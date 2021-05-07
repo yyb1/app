@@ -10971,9 +10971,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@3.4.x:
   version "3.4.10"
@@ -11742,3 +11742,8 @@ zscroller@~0.4.0:
   integrity sha512-G5NiNLKx2+QhhvZi2yV1jjVXY50otktxkseX2hG2N/eixohOUk0AY8ZpbAxNqS9oJS/NxItCsowupy2tsXxAMw==
   dependencies:
     babel-runtime "6.x"
+
+zyframert_zhang@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/zyframert_zhang/-/zyframert_zhang-1.0.0.tgz#e0181d67f39d9364d660f25712f0375184d43145"
+  integrity sha512-rSkDtEhVF9xzaCnmj6VEA6Hy2PnmT/gZXOjI/1iIf+qMya8EQLM8OXqvur0kPI4koPhp3PUy4dIpjWi8QnGFWQ==
